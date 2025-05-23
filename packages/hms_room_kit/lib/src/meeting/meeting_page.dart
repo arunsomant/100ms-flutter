@@ -240,7 +240,7 @@ class _MeetingPageState extends State<MeetingPage> {
                                                                           child: (isVideoOn && previewForRoleTracks.item1 != null)
                                                                               ? Center(
                                                                                   child: HMSTextureView(
-                                                                                    scaleType: ScaleType.SCALE_ASPECT_FILL,
+                                                                                    scaleType: ScaleType.SCALE_ASPECT_FIT,
                                                                                     track: previewForRoleTracks.item1!,
                                                                                     setMirror: true,
                                                                                   ),
