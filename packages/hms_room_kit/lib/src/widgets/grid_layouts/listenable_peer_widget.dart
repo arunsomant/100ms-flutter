@@ -20,7 +20,7 @@ class ListenablePeerWidget extends StatelessWidget {
       {super.key,
       required this.index,
       required this.peerTracks,
-      this.scaleType = ScaleType.SCALE_ASPECT_FILL});
+      this.scaleType = ScaleType.SCALE_ASPECT_FIT});
 
   @override
   Widget build(BuildContext context) {
