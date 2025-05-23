@@ -41,7 +41,7 @@ class VideoView extends StatefulWidget {
       this.setMirror = false,
       this.matchParent = true,
       required this.uid,
-      this.scaleType = ScaleType.SCALE_ASPECT_FILL,
+      this.scaleType = ScaleType.SCALE_ASPECT_FIT,
       this.avatarRadius = 34,
       this.avatarTitleFontSize = 34,
       this.avatarTitleTextLineHeight = 32,
@@ -97,7 +97,7 @@ class _VideoViewState extends State<VideoView> {
                     child: HMSTextureView(
                       controller: widget.videoViewController,
                       key: Key(data.item1!.trackId),
-                      scaleType: ScaleType.SCALE_ASPECT_FILL,
+                      scaleType: ScaleType.SCALE_ASPECT_FIT,
                       track: data.item1!,
                       setMirror: data.item1.runtimeType == HMSLocalVideoTrack,
                       disableAutoSimulcastLayerSelect:
