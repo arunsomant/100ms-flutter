@@ -133,7 +133,7 @@ class _PreviewPageState extends State<PreviewPage> {
                                           ? Center(
                                               child: HMSTextureView(
                                                 scaleType:
-                                                    ScaleType.SCALE_ASPECT_FILL,
+                                                    ScaleType.SCALE_ASPECT_FIT,
                                                 track:
                                                     previewStore.localTracks[0],
                                                 setMirror: true,
