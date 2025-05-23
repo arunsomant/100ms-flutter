@@ -259,7 +259,7 @@ class _HLSViewerPageState extends State<HLSViewerPage> {
                                                                                 previewForRoleTracks.item1 != null)
                                                                             ? Center(
                                                                                 child: HMSVideoView(
-                                                                                  scaleType: ScaleType.SCALE_ASPECT_FILL,
+                                                                                  scaleType: ScaleType.SCALE_ASPECT_FIT,
                                                                                   track: previewForRoleTracks.item1!,
                                                                                   setMirror: true,
                                                                                 ),
